@@ -1,0 +1,131 @@
+groupe,question,answer,compteur,date_derniere_question
+bash,cmd pour connaitre qui je suis ?,whoami,0,2024-11-13 21:53:09
+bash,cmd pour savoir où je suis ?,pwd,0,2024-11-13 21:53:17
+bash,cmd pour connaitre le contenu du répertoire dans lequel je suis ?,ls,0,2024-11-13 21:53:28
+bash,cmd pour connaitre le contenu du répertoire y compris les fichiers cachés ?,ls -a,0,2024-11-13 21:53:44
+bash,cmd pour entrer dans son répertoire personnel ?,cd,0,2024-11-13 21:53:53
+bash,cmd pour remonter dans le répertoire précédent ?,cd ..,0,2024-11-13 21:54:07
+bash,cmd pour entrer dans le répertoire home ?,cd home,0,2024-11-13 21:59:08
+bash,cmd pour revenir dans le répertoire où nous étions précedement ?,cd -,0,2024-11-13 21:54:35
+bash,cmd pour imprimer 'Hello World !'?,echo 'Hello World !',0,2024-11-13 21:55:29
+bash,cmd pour montrer le chemin du répertoire home ?,echo $HOME,2,2024-11-19 14:59:33
+bash,cmd pour créer le nouvel utilisateur 'eleonore' ?,sudo useradd -m 'eleonore',2,2024-11-19 14:59:54
+bash,cmd pour accéder au répertoire racine / ?,cd /,0,2024-11-13 22:00:06
+bash,cmd de chemin absolu pour accéder au répertoire de l'utilisateur eleonore ?,cd /home/eleonore,0,2024-11-13 22:00:23
+bash,cmd pour installer vim ?,sudo apt install vim,0,2024-11-13 22:00:33
+bash,vim - comment insérer du texte ?,taper 'i',0,2024-11-13 22:00:47
+bash,vim - comment quitter le mode insert ?,touche 'ESC',0,2024-11-13 22:00:54
+bash,vim - comment enregister le fichier ?,:w,0,2024-11-13 22:01:03
+bash,vim - comment quitter vim ?,:q,0,2024-11-13 22:01:10
+bash,vim - comment quitter vim sans garder les modifications ?,:q!,0,2024-11-13 22:01:23
+bash,vim - comment quitter et enregistrer ?,:wq ou :x,0,2024-11-13 22:01:37
+bash,vim - comment chercher le mot 'elephant' dans le document ?,1)quitter insertion 2)/elephant 3)n pour le mot suivant et N pour le précédent,2,2024-11-19 15:00:21
+bash,vim - comment copier /coller une ligne ?,1)sélectionner la ligne (V) 2)y 3)p,2,2024-11-10 15:00:55
+bash,vim - comment couper /coller une ligne ?,1)sélectionner la ligne (V) 2)d 3)p,0,2024-11-17 15:01:31
+bash,vim - comment sélectionner une ligne ?,1)quitter insertion 2)se placer sur la ligne 3)V,0,2024-11-19 15:01:52
+bash,vim - cmd pour créer le fichier python data_science ?,vim data_science.py,2,2024-11-19 15:02:31
+bash,cmd pour créer les fichiers file_1.txt et file_2.py ?,touch file_1.txt file_2.py,2,2024-11-19 15:02:54
+bash,cmd pour créer 7 fichiers fileday1 à fileday7 ?,touch fileday{1..7},0,2024-11-13 22:06:35
+bash,Quel changement entraine la fonction 'touch' sur un fichier existant ?,la cmd 'touch' modifie le timestamp du fichier,0,2024-11-10 22:06:51
+bash,cmd pour créer un fichier file.txt avec comme première ligne 'Hello World !' ?,echo 'Hello World' > file.txt,0,2024-11-19 15:03:31
+bash,cmd pour ajouter une ligne 'bonjour Tony' dans un fichier file.txt existant ?,echo 'bonjour Tony' >> file.txt,0,2024-11-13 22:07:39
+bash,cmd pour voir le contenu du fichier file_prg.py sans utiliser vim ?,cat file_prg.py,0,2024-11-19 15:03:45
+bash,cmd pour supprimer les fichiers file1.txt et file2.py ?,rm file1.txt file2.py,0,2024-11-14 22:08:33
+bash,cmd pour supprimer les fichiers fileday1.txt à fileday7.txt rapidement ?,rm fileday{1..7}.txt,0,2024-11-13 22:08:49
+bash,cmd pour supprimer avec un demande de confirmation les fichiers file1.txt et file2.py?,rm -i file1.txt file2.py,2,2024-11-19 15:04:38
+bash,trash-cli - cmd pour installer trash-cli ?,sudo apt install trash-cli,2,2024-11-19 15:05:01
+bash,trash-cli - cmd pour supprimer le fichier file.txt ?,trash file.txt,0,2024-11-13 22:09:26
+bash,trash-cli - Où se trouve les fichiers supprimés ?,~/.local/share/Trash/files,2,2024-11-18 15:05:17
+bash,cmd pour créer un dossier folder1 et folder2 ?,mkdir folder1 folder2,0,2024-11-13 22:10:01
+bash,cmd pour créer une série de dossiers folder1 à folder7 ?,mkdir folder{1..7},0,2024-11-10 22:10:12
+bash,cmd pour voir apparaitre la liste des sous-dossiers du dossier home et ainsi compléter ma cmd ?,taper 'cd home/' + double Tab,2,2024-11-19 15:05:58
+bash,cmd pour supprimer le dossier et son contenu 'folder_py' ?,rm -r folder_py,0,2024-11-18 15:06:15
+bash,cmd pour supprimer le dossier et son contenu avec une confirmation 'folder_py' ?,rm -ri folder_py,0,2024-11-19 15:08:32
+bash,cmd pour copier dans le dossier eleonore le fichier 'script.sh' ?,cp script.sh /home/eleonore,0,2024-11-17 15:09:07
+bash,cmd pour copier le dossier et son contenu 'folder_inutile' dans le dossier eleonore ?,cp -r folder_inutile /home/eleonore,0,2024-11-19 15:09:43
+bash,cmd pour déplacer le fichier 'fly.py' vers le dossier eleonore ?,mv fly.py /home/eleonore,0,2024-11-19 15:10:09
+bash,cmd pour déplacer le dossier 'flying_folder' vers le dossier eleonore ?,mv flying_folder /home/eleonore,0,2024-11-18 15:10:24
+bash,cmd pour renommer le fichier 'pauvre.py' en 'riche.sh',mv pauvre.py riche.sh,0,2024-11-17 15:10:44
+bash,cmd pour lister le répertoire détailler ?,ls -l,1,2024-11-19 15:10:52
+bash,quelles sont les permissions des fichiers ou des répertoire et leurs codes respectifs ?,"w=write, r=read, e=execute",0,2024-11-19 15:11:09
+bash,Expliquer la suite de lettres qui apparait dans la première colonne avec la cmd 'ls -l' ?,le type / propriétaire(rwx) / groupe(rwx) / autres utilisateurs(rwx),1,2024-11-19 15:11:53
+bash,quel type de fichier a pour extension 'sh' et 'py' ?,sh pour bash et py pour python,0,2024-11-19 15:12:15
+bash,cmd pour connaitre le chemin vers bash?,which bash,1,2024-11-19 15:14:25
+bash,"dans un fichier bash, quelle est la première ligne à inscrire?",la première ligne est le chemin vers bash '#! bin/bash',1,2024-11-19 15:14:49
+bash,cmd pour donner le droit d'executer le fichier 'scrip.sh' à l'utilisateur ?,chmod u+x script.sh,1,2024-11-17 15:15:58
+bash,cmd pour retirer le droit de lire le fichier 'livre.py' au groupe ?,chmod g-r livre.py,0,2024-11-19 15:18:17
+bash,cmd pour donner le droit d'écrire dans le fichier 'book.sh' aux autre utilisateurs ?,chmod o+w book.sh,0,2024-11-18 15:18:46
+bash,cmd pour retirer les droits d'executer le fichier 'atomic.xl' à tout le monde ?,chmod -x atomic.xl,0,2024-11-16 15:19:07
+bash,cmd pour lancer le programme 'rocket.sh' ?,'./ rocket.sh' ou 'bash rocket.sh',1,2024-11-19 15:19:32
+bash,cmd pour lancer le programme 'fusee.py' ?,python3 fusee.py,1,2024-11-18 15:19:40
+bash,cmd pour connaitre la version de python3 ?,python -V,1,2024-11-18 15:20:09
+bash,cmd pour connaitre le chemin de python3 ?,which python3,0,2024-11-19 15:20:15
+bash,cmd pour vérifier si il existe d'autre version de python ?,ls -lht python*,1,2024-11-17 15:21:16
+bash,cmd pour lancer le fichier fusee.py avec python 3.6 ?,python3.6 fusee.py,0,2024-11-19 15:21:28
+bash,Qu'est ce que la variable PATH ?,La variable PATH est une variable d'environnement qui contient une liste de répertoires dans lesquels le système d'exploitation recherche des exécutables lorsque l'on tape une commande dans le terminal. C'est dans cette variable d'environnement que la commande 'which' va lire pour connaitre le chemin,1,2024-11-19 15:23:15
+bash,Que faut-il en première ligne pour lancer un fichier python ?,#! /usr/bin/python3,1,2024-11-19 15:23:30
+bash,cmd pour créer la variable d'environnement ENV localisée en /home/dev ?,export ENV='/home/dev',1,2024-11-19 15:23:49
+bash,cmd pour lire le contenu de la variable PATH ?,echo $PATH,1,2024-11-19 15:25:21
+bash,Pourquoi ajouter un repertoire à la variable PATH ?,Cela permet de lancer les fichiers enregistrés dans ce répertoir n'importe où dans LINUX,0,2024-11-19 15:26:25
+bash,cmd pour ajouter le repertoire 'envfolder' sous eleonore dans la variable PATH ?,export PATH='/home/eleonore/envfolder:$PATH',1,2024-11-19 15:28:36
+bash,quelle est l'utilité du fichier '.bashrc' ?,le fichier '.bashrc' permet de personnaliser son terminal. Il se lance à chaque nouvelle session,1,2024-11-19 15:29:08
+bash,cmd pour lancer le fichier'.bashrc' ?,source .bashrc,1,2024-11-19 15:29:20
+bash,que peut-on mettre dans le fichier '.bashrc' ?,"dans ce fichier ont peut 1) personaliser le PATH et les variables d'environnement 2)Créer des fonctions et des alias 3)personaliser les prompts, les couleurs et les sorties des commandes",1,2024-11-19 15:30:00
+bash,cmd pour connaitre l'historique de la commande 'sudo' ?,history | grep sudo,1,2024-11-19 15:30:35
+bash,qu'est ce qu'un alias ? et comment créer un alias 'gcdm' pour 'git commit' ?,Un alias est le raccourci d'une commande. la cmd est alias gcdm='git commit',1,2024-11-19 15:31:26
+bash,comment suspendre un processus ?,CTRL + Z,0,2024-11-17 15:31:33
+bash,comment arrêter un processus ?,CTRL + C,0,2024-11-19 15:31:40
+bash,cmd pour reprendre un processus suspendu ?,fg,1,2024-11-19 15:32:19
+bash,quel programme permet de lister les processus en-cours et quelle est le cmd pour le lancer ?,le programme est htop et la cmd est 'htop',0,2024-11-18 15:32:39
+bash,avec htop comment arrêter le processus ?,1) selectionner le processus avec les flèches du curseur 2)taper K sur le processus 3)sélectionner le signal 'sigkill' ou sigterm',1,2024-11-19 15:33:08
+bash,cmd pour mettre à jour les paquets ?,première étape 'sudo apt update' puis ensuite 'sudo apt upgrade',1,2024-11-19 15:33:39
+bash,cmd pour installer le paquet 'booster' ?,sudo apt install booster,0,2024-11-19 15:33:56
+bash,Quels types de flux existent ?,Entrant=STD IN  Sortant=STD OUT  Erreur=STD ERR,1,2024-11-19 15:34:26
+bash,cmd pour rediriger les flux sortants du programme 'prg.py' vers un fichier 'resultat.txt' ?,python3 prg.py 1> resultat.txt,1,2024-11-17 15:34:49
+bash,cmd pour rediriger les flux erreurs du programme 'prg.py' vers un fichier 'pylog.txt' ?,python3 prg.py 2> pylog.txt,0,2024-11-19 15:35:11
+bash,cmd pour augmenter à 1200 lignes l'historique ?,export HISTSIZE=1200,1,2024-11-19 15:35:29
+bash,cmd pour vérifier si on a du réseau ?,ping www.google.com,1,2024-11-19 15:35:57
+bash,cmd pour zipper le fichier 'biloute.txt' dans 'biloutezippe' ?,zip biloutezippe.zip biloute.txt,1,2024-11-19 15:36:12
+bash,cmd pour obtenir une explication sur la commande ls ?,man ls,0,2024-11-19 15:36:25
+bash,cmd pour connaitre les paquets 'paint' a télécharger ?,apt search paint,1,2024-11-19 15:36:42
+bash,cmd pour supprimer le paquet 'bullit' ?,sudo apt remove bullit,1,2024-11-19 15:37:00
+bash,cmd pour télécharger le fichier 'anaconda.sh' à partir de l'adresse 'https://repo.anaconda.com/loading' ?,wget https://repo.anaconda.com/loading/anaconda.sh,1,2024-11-19 15:37:31
+bash,comment faire pour créer une variable d'environnement définitive ?,il faut enregistrer la cmd de création dans le fichier.bashrc,1,2024-11-19 15:37:49
+bash,dans google colab comment utiliser les cmd bash ?,La commande bash est précédé par '!' par exemple '!whoami'. Ou bien commencer la ligne avec '%%bash' puis continuer avec les cmd bash habituelles,1,2024-11-19 15:38:19
+bash,comment réaliser une autocompletion ?,il suffit d'utiliser la touche 'Tab',1,2024-11-19 15:38:31
+bash,comment regrouper des cmd qui se réaliseront successivement sur une même ligne ?,Chaque cmd doit etre séparée par '&&' par exemple : cd folder && echo 'hello' >> text.txt && ls,1,2024-11-19 15:39:03
+bash,comment regrouper des cmd sur une même ligne mais qu'elles se réalisent indépedendament les unes des autres ?,chaque cmd est séparée par le ';',1,2024-11-17 15:39:23
+bash,cmd pour changer d'utilisateur et être sous eleonore?,sudo su - eleonore,1,2024-11-19 15:39:40
+bash,cmd pour quitter l'utilisateur eleonore que j'ai sélectionné ?,exit,0,1969-03-19 00:00:00
+bash,comment travailler en mode plein écran avec Ubuntu ?,Presser la touche F11,0,1969-03-19 00:00:00
+sql,Expliquer la cmd 'SELECT *' ?,Cette cmd sélectionne toutes les colonnes de la table,0,2024-11-14 12:14:24
+sql,Expliquer la cmd 'WHERE' ?,Cette cmd qui s'utilise avec SELECT est utilisée pour extraire les lignes qui obéissent à une condition,1,2024-11-14 21:53:21
+sql,Expliquer la cmd 'SELECT DISTINCT pays' ?,Cette cmd évite les redondances et permet de lister individuellement les pays qui sont dans la table,0,2024-11-14 12:15:03
+sql,"Quel est l'ordre de priorité entre AND, NOT, et OR ?", L'ordre est NOT > AND > OR et il peut être modifié avec l'utilisation des parenthèses,0,2024-11-14 12:15:17
+sql,Comment mettre un commentaire dans une cmd SQL ?,Pour une simple ligne commencer la ligne par '--'. Et pour un paragraphe il faut commencer par '/*' et terminer par '*/',0,2024-11-14 21:41:53
+sql,Quel est l'ordre de réalisation des opérations SQL ?,FROM > JOIN > WHERE > GROUP BY > HAVING > SELECT > DISTINCT > ORDER BY > LIMIT > OFFSET,3,2024-11-14 21:53:58
+sql,Code sql pour un 'cross join' sur table1 et table2 ?,SELECT * FROM table1 / CROSS JOIN table2 / USING (id),0,2024-11-14 21:42:58
+sql,Code sql pour un 'inner join' des table1 et table2 ?,SELECT * FROM table1 / INNER JOIN table2 / USING (id),0,2024-11-14 12:17:48
+sql,Code sql pour un 'left join' des table1 et table2 ?,SELECT * FROM table1 / LEFT JOIN table2 / USING (id),0,2024-11-14 12:18:08
+sql,Code sql pour un 'full outer join' des table1 et table2 ?,SELECT * FROM table1 / FULL OUTER JOIN table2 / USING (id),0,2024-11-14 21:43:42
+sql,Expliquer la cmd COUNT (client) ?,Cette cmd permet de compter le nb de lignes non NULL dans la colonne client,1,2024-11-14 21:54:07
+sql,Expliquer la cmd COUNT(*) ?,Cette cmd permet de compter le nombre total de lignes dans une table dès lors qu'il existe une colonne non NULL,0,2024-11-14 21:45:00
+sql,Expliquer un 'self join' ?,C'est une jointure d'une table avec elle-même.,0,2024-11-14 21:46:48
+sql,Expliquer un 'cross join' ?,C'est un produit cartésien. Chaque ligne de la table1 est combinée avec les lignes de la table2,0,2024-11-14 21:47:47
+sql,Expliquer un 'inner join' ?,Cette opération permet de combiner les lignes de deux tables en se basant sur une condition de jointure spécifique. Il renvoie uniquement les lignes où il y a une correspondance dans les deux tables. C'est un 'crossjoin' avec une condition de correspondance.,2,2024-11-14 21:54:41
+sql,Expliquer un 'left join' ?,"C'est une combinaison des lignes de deux tables avec un condition de jointure spécifique, mais qui garde toute les lignes de la table de gauche (1ière table) et les lignes correspondantes de la table de droite (2nd table).",2,2024-11-14 21:55:45
+sql,Expliquer un 'full outer join',C'est la combinaison des résultats d'un 'left join' et d'un 'right join'. Le résultat retourne toutes les lignes des deux tables avec des valeurs NULL là où il n'y a pas de correspondances.,1,2024-11-14 21:57:01
+sql,Expliquer la commande 'GROUP BY' ?,Cette cmd permet de grouper des résultats avec une fonction d'aggrégation. Les actions du GROUP BY sont 1)split 2)apply 3)combine.,1,2024-11-14 21:57:41
+sql,Expliquer la commande 'COALESCE' ?,"Cette cmd qui renvoie les arguments NULL dans un SELECT permet aussi de leur affecter une valeur. COALESCE (col, valeur)",0,1969-03-19 00:00:00
+sql,Expliquer la commande 'CAST' ?,Cette commande permet de modifier le type d'une donnée dans un SELECT. SELECT CAST(expression AS type),0,1969-03-19 00:00:00
+sql,Expliquer la commande CTE ?,CTE = Common Table Expression permet de créer une table qui sera rappeler ensuite. WITH new_table AS (SELECT ...),0,2024-11-14 21:56:16
+sql,Expliquer la commande 'HAVING' ?,Cette cmd permet de filtrer les lignes produites par un 'GROUP BY'. Elle remplace le 'WHERE' qui ne peut pas être utiliser.,0,1969-03-19 00:00:00
+sql,Expliquer la commande 'UNION' ?,"Cette cmd permet de combiner les résultats de plusieurs 'SELECT' en un seul. Les requêtes doivent avoir le même nombre de colonnes et les mêmes types de données. SELECT col1, col2 FROM table1 / UNION / SELECT col1, col2 FROM table2",0,2024-11-14 21:45:52
+sql,Expliquer la différence entre les cmd 'UNION' et 'UNION ALL' ?,La cmd 'UNION' supprime les doublons à la différence de la cmd 'UNION ALL' qui les conserve,0,2024-11-14 21:46:15
+sql,Expliquer la commande 'CASE WHEN' ?, Cette cmd permet d'ajouter une logique conditionelle dans les requêtes et retourne différentes valeurs basées sur des conditions spécifiques. Elle est surtout utilisée dans un SELECT. CASE / WHEN condition1 THEN resultat1 / WHEN condition2 THEN resultat2 / ELSE resultat_autre / END AS alias,0,1969-03-19 00:00:00
+py,Code python pour un 'inner join'des table1 et table2 ?,"=(table1.merge(table2, how='inner', on='id))",1,2024-11-14 12:56:03
+py,Code python pour un 'self join' de la table headcount pour rapprocher managers et employés ?,"=(headcount.merge(headcount, left_on='manager', right_on='employee', suffixes['_emp','_man'], how='left'))",1,2024-11-14 12:53:43
+py,Code python pour un 'left join' des table1 et table2 ?,"=(table1.merge(table2, how='left', on='id'))",1,2024-11-14 12:54:07
+py,Code python pour un 'cross join' des table1 et table2 ?,"=(table1.join(table2, how='cross'))",1,2024-11-14 12:54:44
+py,Code python pour un 'full outer join' des table1 et table2,"=(table1.merge(table2, how='outer', on='id')) ",1,2024-11-14 12:55:03
+py,Quelle différence entre 'join' et 'merge' avec Pandas ?,Avec Pandas 'join' réalise la jointure sur l'index et non sur la colonne désignée. Il faut désigner la colonne (col_name) comme le nouvel index de la table (df). = df.set_index('col_name'),1,2024-11-14 12:55:30
