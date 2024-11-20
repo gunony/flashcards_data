@@ -8,8 +8,8 @@ bash,cmd pour remonter dans le répertoire précédent ?,cd ..,0,2024-11-13 21:5
 bash,cmd pour entrer dans le répertoire home ?,cd home,0,2024-11-13 21:59:08
 bash,cmd pour revenir dans le répertoire où nous étions précedement ?,cd -,0,2024-11-13 21:54:35
 bash,cmd pour imprimer 'Hello World !'?,echo 'Hello World !',0,2024-11-13 21:55:29
-bash,cmd pour montrer le chemin du répertoire home ?,echo $HOME,2,2024-11-19 14:59:33
-bash,cmd pour créer le nouvel utilisateur 'eleonore' ?,sudo useradd -m 'eleonore',2,2024-11-19 14:59:54
+bash,cmd pour montrer le chemin du répertoire home ?,echo $HOME,3,2024-11-20 11:43:28
+bash,cmd pour créer le nouvel utilisateur 'eleonore' ?,sudo useradd -m 'eleonore',3,2024-11-20 11:43:47
 bash,cmd pour accéder au répertoire racine / ?,cd /,0,2024-11-13 22:00:06
 bash,cmd de chemin absolu pour accéder au répertoire de l'utilisateur eleonore ?,cd /home/eleonore,0,2024-11-13 22:00:23
 bash,cmd pour installer vim ?,sudo apt install vim,0,2024-11-13 22:00:33
@@ -19,12 +19,12 @@ bash,vim - comment enregister le fichier ?,:w,0,2024-11-13 22:01:03
 bash,vim - comment quitter vim ?,:q,0,2024-11-13 22:01:10
 bash,vim - comment quitter vim sans garder les modifications ?,:q!,0,2024-11-13 22:01:23
 bash,vim - comment quitter et enregistrer ?,:wq ou :x,0,2024-11-13 22:01:37
-bash,vim - comment chercher le mot 'elephant' dans le document ?,1)quitter insertion 2)/elephant 3)n pour le mot suivant et N pour le précédent,2,2024-11-19 15:00:21
-bash,vim - comment copier /coller une ligne ?,1)sélectionner la ligne (V) 2)y 3)p,2,2024-11-10 15:00:55
+bash,vim - comment chercher le mot 'elephant' dans le document ?,1)quitter insertion 2)/elephant 3)n pour le mot suivant et N pour le précédent,3,2024-11-20 11:44:13
+bash,vim - comment copier /coller une ligne ?,1)sélectionner la ligne (V) 2)y 3)p,1,2024-11-20 11:44:57
 bash,vim - comment couper /coller une ligne ?,1)sélectionner la ligne (V) 2)d 3)p,0,2024-11-17 15:01:31
 bash,vim - comment sélectionner une ligne ?,1)quitter insertion 2)se placer sur la ligne 3)V,0,2024-11-19 15:01:52
-bash,vim - cmd pour créer le fichier python data_science ?,vim data_science.py,2,2024-11-19 15:02:31
-bash,cmd pour créer les fichiers file_1.txt et file_2.py ?,touch file_1.txt file_2.py,2,2024-11-19 15:02:54
+bash,vim - cmd pour créer le fichier python data_science ?,vim data_science.py,1,2024-11-20 11:45:18
+bash,cmd pour créer les fichiers file_1.txt et file_2.py ?,touch file_1.txt file_2.py,1,2024-11-20 11:45:38
 bash,cmd pour créer 7 fichiers fileday1 à fileday7 ?,touch fileday{1..7},0,2024-11-13 22:06:35
 bash,Quel changement entraine la fonction 'touch' sur un fichier existant ?,la cmd 'touch' modifie le timestamp du fichier,0,2024-11-10 22:06:51
 bash,cmd pour créer un fichier file.txt avec comme première ligne 'Hello World !' ?,echo 'Hello World' > file.txt,0,2024-11-19 15:03:31
@@ -32,13 +32,13 @@ bash,cmd pour ajouter une ligne 'bonjour Tony' dans un fichier file.txt existant
 bash,cmd pour voir le contenu du fichier file_prg.py sans utiliser vim ?,cat file_prg.py,0,2024-11-19 15:03:45
 bash,cmd pour supprimer les fichiers file1.txt et file2.py ?,rm file1.txt file2.py,0,2024-11-14 22:08:33
 bash,cmd pour supprimer les fichiers fileday1.txt à fileday7.txt rapidement ?,rm fileday{1..7}.txt,0,2024-11-13 22:08:49
-bash,cmd pour supprimer avec un demande de confirmation les fichiers file1.txt et file2.py?,rm -i file1.txt file2.py,2,2024-11-19 15:04:38
-bash,trash-cli - cmd pour installer trash-cli ?,sudo apt install trash-cli,2,2024-11-19 15:05:01
+bash,cmd pour supprimer avec un demande de confirmation les fichiers file1.txt et file2.py?,rm -i file1.txt file2.py,1,2024-11-20 11:46:10
+bash,trash-cli - cmd pour installer trash-cli ?,sudo apt install trash-cli,1,2024-11-20 11:46:20
 bash,trash-cli - cmd pour supprimer le fichier file.txt ?,trash file.txt,0,2024-11-13 22:09:26
-bash,trash-cli - Où se trouve les fichiers supprimés ?,~/.local/share/Trash/files,2,2024-11-18 15:05:17
+bash,trash-cli - Où se trouvent les fichiers supprimés ?,~/.local/share/Trash/files,3,2024-11-20 11:47:35
 bash,cmd pour créer un dossier folder1 et folder2 ?,mkdir folder1 folder2,0,2024-11-13 22:10:01
 bash,cmd pour créer une série de dossiers folder1 à folder7 ?,mkdir folder{1..7},0,2024-11-10 22:10:12
-bash,cmd pour voir apparaitre la liste des sous-dossiers du dossier home et ainsi compléter ma cmd ?,taper 'cd home/' + double Tab,2,2024-11-19 15:05:58
+bash,cmd pour voir apparaitre la liste des sous-dossiers du dossier home et ainsi compléter ma cmd ?,taper 'cd home/' + double Tab,3,2024-11-20 11:48:02
 bash,cmd pour supprimer le dossier et son contenu 'folder_py' ?,rm -r folder_py,0,2024-11-18 15:06:15
 bash,cmd pour supprimer le dossier et son contenu avec une confirmation 'folder_py' ?,rm -ri folder_py,0,2024-11-19 15:08:32
 bash,cmd pour copier dans le dossier eleonore le fichier 'script.sh' ?,cp script.sh /home/eleonore,0,2024-11-17 15:09:07
@@ -46,24 +46,24 @@ bash,cmd pour copier le dossier et son contenu 'folder_inutile' dans le dossier 
 bash,cmd pour déplacer le fichier 'fly.py' vers le dossier eleonore ?,mv fly.py /home/eleonore,0,2024-11-19 15:10:09
 bash,cmd pour déplacer le dossier 'flying_folder' vers le dossier eleonore ?,mv flying_folder /home/eleonore,0,2024-11-18 15:10:24
 bash,cmd pour renommer le fichier 'pauvre.py' en 'riche.sh',mv pauvre.py riche.sh,0,2024-11-17 15:10:44
-bash,cmd pour lister le répertoire détailler ?,ls -l,1,2024-11-19 15:10:52
+bash,cmd pour lister le répertoire détailler ?,ls -l,0,2024-11-20 11:48:10
 bash,quelles sont les permissions des fichiers ou des répertoire et leurs codes respectifs ?,"w=write, r=read, e=execute",0,2024-11-19 15:11:09
-bash,Expliquer la suite de lettres qui apparait dans la première colonne avec la cmd 'ls -l' ?,le type / propriétaire(rwx) / groupe(rwx) / autres utilisateurs(rwx),1,2024-11-19 15:11:53
+bash,Expliquer la suite de lettres qui apparait dans la première colonne avec la cmd 'ls -l' ?,le type / propriétaire(rwx) / groupe(rwx) / autres utilisateurs(rwx),0,2024-11-20 11:48:43
 bash,quel type de fichier a pour extension 'sh' et 'py' ?,sh pour bash et py pour python,0,2024-11-19 15:12:15
-bash,cmd pour connaitre le chemin vers bash?,which bash,1,2024-11-19 15:14:25
-bash,"dans un fichier bash, quelle est la première ligne à inscrire?",la première ligne est le chemin vers bash '#! bin/bash',1,2024-11-19 15:14:49
-bash,cmd pour donner le droit d'executer le fichier 'scrip.sh' à l'utilisateur ?,chmod u+x script.sh,1,2024-11-17 15:15:58
+bash,cmd pour connaitre le chemin vers bash?,which bash,0,2024-11-20 11:48:53
+bash,"dans un fichier bash, quelle est la première ligne à inscrire?",la première ligne est le chemin vers bash '#! bin/bash',2,2024-11-20 11:49:27
+bash,cmd pour donner le droit d'executer le fichier 'scrip.sh' à l'utilisateur ?,chmod u+x script.sh,2,2024-11-20 11:50:45
 bash,cmd pour retirer le droit de lire le fichier 'livre.py' au groupe ?,chmod g-r livre.py,0,2024-11-19 15:18:17
 bash,cmd pour donner le droit d'écrire dans le fichier 'book.sh' aux autre utilisateurs ?,chmod o+w book.sh,0,2024-11-18 15:18:46
 bash,cmd pour retirer les droits d'executer le fichier 'atomic.xl' à tout le monde ?,chmod -x atomic.xl,0,2024-11-16 15:19:07
-bash,cmd pour lancer le programme 'rocket.sh' ?,'./ rocket.sh' ou 'bash rocket.sh',1,2024-11-19 15:19:32
-bash,cmd pour lancer le programme 'fusee.py' ?,python3 fusee.py,1,2024-11-18 15:19:40
-bash,cmd pour connaitre la version de python3 ?,python -V,1,2024-11-18 15:20:09
+bash,cmd pour lancer le programme 'rocket.sh' ?,'./ rocket.sh' ou 'bash rocket.sh',2,2024-11-20 11:51:02
+bash,cmd pour lancer le programme 'fusee.py' ?,python3 fusee.py,0,2024-11-20 11:51:20
+bash,cmd pour connaitre la version de python3 ?,python3 -V,2,2024-11-20 11:51:35
 bash,cmd pour connaitre le chemin de python3 ?,which python3,0,2024-11-19 15:20:15
-bash,cmd pour vérifier si il existe d'autre version de python ?,ls -lht python*,1,2024-11-17 15:21:16
+bash,cmd pour vérifier si il existe d'autre version de python ?,ls -lht python*,2,2024-11-20 11:53:58
 bash,cmd pour lancer le fichier fusee.py avec python 3.6 ?,python3.6 fusee.py,0,2024-11-19 15:21:28
-bash,Qu'est ce que la variable PATH ?,La variable PATH est une variable d'environnement qui contient une liste de répertoires dans lesquels le système d'exploitation recherche des exécutables lorsque l'on tape une commande dans le terminal. C'est dans cette variable d'environnement que la commande 'which' va lire pour connaitre le chemin,1,2024-11-19 15:23:15
-bash,Que faut-il en première ligne pour lancer un fichier python ?,#! /usr/bin/python3,1,2024-11-19 15:23:30
+bash,Qu'est ce que la variable PATH ?,La variable PATH est une variable d'environnement qui contient une liste de répertoires dans lesquels le système d'exploitation recherche des exécutables lorsque l'on tape une commande dans le terminal. C'est dans cette variable d'environnement que la commande 'which' va lire pour connaitre le chemin,0,2024-11-20 11:55:08
+bash,Que faut-il en première ligne pour lancer un fichier python ?,#! /usr/bin/python3,2,2024-11-20 11:55:27
 bash,cmd pour créer la variable d'environnement ENV localisée en /home/dev ?,export ENV='/home/dev',1,2024-11-19 15:23:49
 bash,cmd pour lire le contenu de la variable PATH ?,echo $PATH,1,2024-11-19 15:25:21
 bash,Pourquoi ajouter un repertoire à la variable PATH ?,Cela permet de lancer les fichiers enregistrés dans ce répertoir n'importe où dans LINUX,0,2024-11-19 15:26:25
