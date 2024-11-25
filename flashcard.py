@@ -125,16 +125,19 @@ def quiz(flashcards, group):
         The block of flashcards selected for the quizz.
     '''
     num_question = 0
+    nb_reponse_ok = 0
     sorted_questions = get_sorted_questions(flashcards, group)
     print("\nTapez 'STOP' à tout moment pour arrêter le quiz.\n")
 
     while True:  # Boucle infinie pour répéter les questions
         for question, data in sorted_questions:
-            print('-' * 50)
             num_question +=1
-            user_input = input(f"QUESTION N°{num_question} : {question} (Entrée pour la réponse ou 'STOP')\n")
+            print("-"*30,f"QUESTION N°{num_question} ({flashcards[group][question]['counter']} pts)","-"*30)
+            user_input = input(f"{question} (Entrée pour la réponse ou 'STOP')\n")
             if user_input.strip().lower() == 'stop':
                 save_flashcards('flashcards.csv', flashcards)  # Enregistrer les compteurs avant de quitter
+                print("RESULTATS :")
+                print(f"Nombre de questions : {num_question-1} | Score de réponses correctes : {round(nb_reponse_ok/(num_question-1)*100)} %")
                 print("Quiz terminé et fichier mis à jour !")
                 return
             
@@ -143,8 +146,10 @@ def quiz(flashcards, group):
             user_reponse = input("Si votre réponse était correcte, tapez O. Sinon Entrée.\n")
             if user_reponse.strip().lower() == 'o':
                 print("Vous avez trouvé la bonne réponse !\n")
-                    # Diminuer le compteur
+                # Diminuer le compteur
                 flashcards[group][question]['counter'] = max(0, flashcards[group][question]['counter'] - 1)
+                # MAJ compteur de bonne reponse
+                nb_reponse_ok +=1
                 
             else :
                 print("Votre réponse était incorrecte.\n")
