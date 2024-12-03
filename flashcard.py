@@ -15,7 +15,6 @@ def load_flashcards(filename):
     flashcards = {}
     compteur_avertissement = 0
     with open(filename, 'r', encoding='utf-8') as file:
-        print(f'chemin :{filename}')
         reader = csv.reader(file)
         next(reader)  # Ignorer l'en-tête
         for row in reader:
@@ -127,6 +126,7 @@ def quiz(flashcards, group):
     num_question = 0
     nb_reponse_ok = 0
     sorted_questions = get_sorted_questions(flashcards, group)
+    wrong_answers = []
     print("\nTapez 'STOP' à tout moment pour arrêter le quiz.\n")
 
     while True:  # Boucle infinie pour répéter les questions
@@ -138,7 +138,21 @@ def quiz(flashcards, group):
                 save_flashcards('flashcards.csv', flashcards)  # Enregistrer les compteurs avant de quitter
                 print("RESULTATS :")
                 print(f"Nombre de questions : {num_question-1} | Score de réponses correctes : {round(nb_reponse_ok/(num_question-1)*100)} %")
-                print("Quiz terminé et fichier mis à jour !")
+
+                
+                # Pour afficher les mauvaises réponses
+                if wrong_answers:
+                    print("\nLes questions à revoir :")
+                    print("-" * 50)
+                    for q, a in wrong_answers:
+                        print(f"Question: {q}")
+                        print(f"Réponse : {a}")
+                        print("-" * 50)
+                else:
+                    print("\nFélicitations ! Il n'y a aucune erreur !")
+                
+                print("Quiz terminé et fichier mis à jour !")                
+                
                 return
             
             print(f"REPONSE => {data['answer']}\n")
@@ -153,15 +167,17 @@ def quiz(flashcards, group):
                 
             else :
                 print("Votre réponse était incorrecte.\n")
-                    # Augmenter le compteur
+                # Augmenter le compteur
                 flashcards[group][question]['counter'] += 1
-            
+                # Ajouter la mauvaise réponse à la liste
+                wrong_answers.append((question, data['answer']))
+
             # Mettre à jour la date de la dernière question posée
             flashcards[group][question]['last_date'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 # PART 3 - Le programme commence ici
 if __name__ == "__main__":
-    print("Bienvenue dans le programme de flashcards !\n")
+    print("Bienvenue dans le programme de révision !\n")
     # chargement et vérifications des données.
     flashcards, compteur_avertissement = load_flashcards('flashcards.csv')
         
@@ -174,7 +190,7 @@ if __name__ == "__main__":
             print("Le programme va s'arrêter sans enregistrer les modifications.")
             exit()  # Arrêter le programme sans sauvegarder
     else:
-        print('Le fichier de données est correct !')
+        print('Le fichier de données est correct ! \n')
 
     # Choisir le groupe de questions
     selected_group = select_group(flashcards)
