@@ -1,47 +1,47 @@
 groupe,question,answer,compteur,date_derniere_question
-bash,cmd pour connaitre qui je suis ?,whoami,0,2024-12-02 12:44:02
-bash,cmd pour savoir où je suis ?,pwd,0,2024-12-02 12:44:08
-bash,cmd pour connaitre le contenu du répertoire dans lequel je suis ?,ls,0,2024-12-02 12:44:17
-bash,cmd pour connaitre le contenu du répertoire y compris les fichiers cachés ?,ls -a,0,2024-12-02 12:44:25
-bash,cmd pour entrer dans son répertoire personnel ?,cd,1,2024-12-06 14:08:32
-bash,cmd pour remonter dans le répertoire précédent ?,cd ..,0,2024-12-02 12:44:52
-bash,cmd pour entrer dans le répertoire home ?,cd home,0,2024-12-02 12:45:15
-bash,cmd pour revenir dans le répertoire où nous étions précedement ?,cd -,0,2024-12-02 12:45:01
-bash,cmd pour imprimer 'Hello World !'?,echo 'Hello World !',0,2024-12-02 12:45:10
-bash,cmd pour montrer le chemin du répertoire home ?,echo $HOME,3,2024-12-06 14:08:52
-bash,cmd pour créer le nouvel utilisateur 'eleonore' ?,sudo useradd -m 'eleonore',1,2024-12-06 14:09:15
-bash,cmd pour accéder au répertoire racine / ?,cd /,0,2024-12-03 10:17:00
-bash,cmd de chemin absolu pour accéder au répertoire de l'utilisateur eleonore ?,cd /home/eleonore,0,2024-12-02 12:45:44
-bash,cmd pour installer vim ?,sudo apt install vim,0,2024-12-02 12:45:59
-bash,vim - comment insérer du texte ?,taper 'i',0,2024-12-02 12:46:06
-bash,vim - comment quitter le mode insert ?,touche 'ESC',0,2024-12-03 10:17:07
-bash,vim - comment enregister le fichier ?,:w,0,2024-12-02 12:46:21
-bash,vim - comment quitter vim ?,:q,0,2024-12-02 12:46:29
-bash,vim - comment quitter vim sans garder les modifications ?,:q!,0,2024-12-02 12:46:35
-bash,vim - comment quitter et enregistrer ?,:wq ou :x,0,2024-12-02 12:46:44
-bash,vim - comment chercher le mot 'elephant' dans le document ?,1)quitter insertion 2)/elephant 3)n pour le mot suivant et N pour le précédent,0,2024-12-02 12:37:50
+bash,cmd pour connaitre qui je suis ?,whoami,0,2024-12-10 14:56:34
+bash,cmd pour savoir où je suis ?,pwd,0,2024-12-10 14:56:40
+bash,cmd pour connaitre le contenu du répertoire dans lequel je suis ?,ls,0,2024-12-10 14:56:57
+bash,cmd pour connaitre le contenu du répertoire y compris les fichiers cachés ?,ls -a,0,2024-12-10 14:57:05
+bash,cmd pour entrer dans son répertoire personnel ?,cd,0,2024-12-09 10:16:34
+bash,cmd pour remonter dans le répertoire précédent ?,cd ..,0,2024-12-10 14:57:11
+bash,cmd pour entrer dans le répertoire home ?,cd home,0,2024-12-10 14:57:32
+bash,cmd pour revenir dans le répertoire où nous étions précedement ?,cd -,0,2024-12-10 14:57:18
+bash,cmd pour imprimer 'Hello World !'?,echo 'Hello World !',0,2024-12-10 14:57:25
+bash,cmd pour montrer le chemin du répertoire home ?,echo $HOME,1,2024-12-12 17:07:46
+bash,cmd pour créer le nouvel utilisateur 'eleonore' ?,sudo useradd -m 'eleonore',0,2024-12-09 10:16:46
+bash,cmd pour accéder au répertoire racine / ?,cd /,0,2024-12-12 17:08:58
+bash,cmd de chemin absolu pour accéder au répertoire de l'utilisateur eleonore ?,cd /home/eleonore,0,2024-12-10 14:57:49
+bash,cmd pour installer vim ?,sudo apt install vim,0,2024-12-12 17:08:08
+bash,vim - comment insérer du texte ?,taper 'i',0,2024-12-11 09:27:15
+bash,vim - comment quitter le mode insert ?,touche 'ESC',0,2024-12-12 17:09:04
+bash,vim - comment enregister le fichier ?,:w,0,2024-12-11 09:27:23
+bash,vim - comment quitter vim ?,:q,0,2024-12-11 09:27:29
+bash,vim - comment quitter vim sans garder les modifications ?,:q!,0,2024-12-11 09:27:36
+bash,vim - comment quitter et enregistrer ?,:wq ou :x,0,2024-12-11 09:27:47
+bash,vim - comment chercher le mot 'elephant' dans le document ?,1)quitter insertion 2)/elephant 3)n pour le mot suivant et N pour le précédent,0,2024-12-10 14:53:24
 bash,vim - comment copier /coller une ligne ?,1)sélectionner la ligne (V) 2)y 3)p,0,2024-12-06 14:36:42
 bash,vim - comment couper /coller une ligne ?,1)sélectionner la ligne (V) 2)d 3)p,0,2024-12-06 14:38:26
 bash,vim - comment sélectionner une ligne ?,1)quitter insertion 2)se placer sur la ligne 3)V,0,2024-12-03 10:22:26
 bash,vim - cmd pour créer le fichier 'data_science' qui sera en python ?,vim data_science.py,0,2024-12-06 14:37:29
 bash,cmd pour créer les fichiers file_1.txt et file_2.py ?,touch file_1.txt file_2.py,0,2024-12-06 14:37:38
-bash,cmd pour créer 7 fichiers fileday1 à fileday7 ?,touch fileday{1..7},0,2024-12-02 12:47:09
-bash,Quel changement entraine la fonction 'touch' sur un fichier existant ?,la cmd 'touch' modifie le timestamp du fichier,0,2024-12-02 12:43:41
+bash,cmd pour créer 7 fichiers fileday1 à fileday7 ?,touch fileday{1..7},0,2024-12-11 09:28:07
+bash,Quel changement entraine la fonction 'touch' sur un fichier existant ?,la cmd 'touch' modifie le timestamp du fichier,0,2024-12-10 14:56:15
 bash,cmd pour créer un fichier file.txt avec comme première ligne 'Hello World !' ?,echo 'Hello World' > file.txt,0,2024-12-03 10:22:54
-bash,cmd pour ajouter une ligne 'bonjour Tony' dans un fichier file.txt existant ?,echo 'bonjour Tony' >> file.txt,0,2024-12-03 10:17:29
+bash,cmd pour ajouter une ligne 'bonjour Tony' dans un fichier file.txt existant ?,echo 'bonjour Tony' >> file.txt,0,2024-12-12 17:09:34
 bash,cmd pour voir le contenu du fichier file_prg.py sans utiliser vim ?,cat file_prg.py,0,2024-12-03 10:24:24
-bash,cmd pour supprimer les fichiers file1.txt et file2.py ?,rm file1.txt file2.py,0,2024-12-02 12:48:33
-bash,cmd pour supprimer les fichiers fileday1.txt à fileday7.txt rapidement ?,rm fileday{1..7}.txt,0,2024-12-02 12:49:53
+bash,cmd pour supprimer les fichiers file1.txt et file2.py ?,rm file1.txt file2.py,0,2024-12-11 09:28:43
+bash,cmd pour supprimer les fichiers fileday1.txt à fileday7.txt rapidement ?,rm fileday{1..7}.txt,0,2024-12-12 17:08:46
 bash,cmd pour supprimer avec une demande de confirmation les fichiers file1.txt et file2.py?,rm -i file1.txt file2.py,0,2024-12-06 14:37:53
 bash,trash-cli - cmd pour installer trash-cli ?,sudo apt install trash-cli,0,2024-12-06 14:38:03
-bash,trash-cli - cmd pour supprimer le fichier file.txt ?,trash file.txt,0,2024-12-02 12:47:54
-bash,trash-cli - Où se trouvent les fichiers supprimés ?,~/.local/share/Trash/files,9,2024-12-06 14:07:30
-bash,cmd pour créer un dossier folder1 et folder2 ?,mkdir folder1 folder2,0,2024-12-02 12:48:23
-bash,cmd pour créer une série de dossiers folder1 à folder7 ?,mkdir folder{1..7},0,2024-12-02 12:43:57
+bash,trash-cli - cmd pour supprimer le fichier file.txt ?,trash file.txt,0,2024-12-11 09:28:18
+bash,trash-cli - Où se trouvent les fichiers supprimés ?,~/.local/share/Trash/files,6,2024-12-12 17:07:38
+bash,cmd pour créer un dossier folder1 et folder2 ?,mkdir folder1 folder2,0,2024-12-11 09:28:27
+bash,cmd pour créer une série de dossiers folder1 à folder7 ?,mkdir folder{1..7},0,2024-12-10 14:56:29
 bash,cmd pour voir apparaitre la liste des sous-dossiers du dossier home et ainsi compléter ma cmd ?,taper 'cd /home/' + double Tab,0,2024-12-03 10:27:11
 bash,cmd pour supprimer le dossier et son contenu 'folder_py' ?,rm -r folder_py,0,2024-12-03 10:27:24
 bash,cmd pour supprimer le dossier et son contenu avec une confirmation 'folder_py' ?,rm -ri folder_py,0,2024-12-03 10:27:46
-bash,cmd pour copier dans le dossier eleonore le fichier 'script.sh' ?,cp script.sh /home/eleonore,0,2024-12-03 10:18:11
+bash,cmd pour copier dans le dossier eleonore le fichier 'script.sh' ?,cp script.sh /home/eleonore,0,2024-12-12 17:09:55
 bash,cmd pour copier le dossier et son contenu 'folder_inutile' dans le dossier eleonore ?,cp -r folder_inutile /home/eleonore,0,2024-12-03 10:24:53
 bash,cmd pour déplacer le fichier 'fly.py' vers le dossier eleonore ?,mv fly.py /home/eleonore,0,2024-12-03 10:25:05
 bash,cmd pour déplacer le dossier 'flying_folder' vers le dossier eleonore ?,mv flying_folder /home/eleonore,0,2024-12-03 10:22:00
@@ -52,26 +52,26 @@ bash,Expliquer la suite de lettres qui apparait dans la première colonne avec l
 bash,quel type de fichier a pour extension 'sh' et 'py' ?,sh pour bash et py pour python,0,2024-12-03 10:26:38
 bash,cmd pour connaitre le chemin vers bash?,which bash,0,2024-12-06 14:36:11
 bash,"dans un fichier bash, quelle est la première ligne à inscrire?",la première ligne est le chemin vers bash '#! /bin/bash',0,2024-12-03 10:18:44
-bash,cmd pour donner le droit d'exécuter le fichier 'script.sh' à l'utilisateur ?,chmod u+x script.sh,0,2024-12-02 12:35:59
+bash,cmd pour donner le droit d'exécuter le fichier 'script.sh' à l'utilisateur ?,chmod u+x script.sh,0,2024-12-09 10:20:14
 bash,cmd pour retirer le droit de lire le fichier 'livre.py' au groupe ?,chmod g-r livre.py,0,2024-12-06 14:09:53
 bash,cmd pour donner le droit d'écrire dans le fichier 'book.sh' aux autre utilisateurs ?,chmod o+w book.sh,0,2024-12-03 10:19:07
-bash,cmd pour retirer les droits d'executer le fichier 'atomic.xl' à tout le monde ?,chmod -x atomic.xl,0,2024-12-02 12:48:50
-bash,cmd pour lancer le programme 'rocket.sh' ?,'./ rocket.sh' ou 'bash rocket.sh',0,2024-12-02 12:40:49
+bash,cmd pour retirer les droits d'executer le fichier 'atomic.xl' à tout le monde ?,chmod -x atomic.xl,0,2024-12-12 17:08:27
+bash,cmd pour lancer le programme 'rocket.sh' ?,'./ rocket.sh' ou 'bash rocket.sh',0,2024-12-09 10:21:07
 bash,cmd pour lancer le programme 'fusee.py' ?,python3 fusee.py,0,2024-12-06 14:36:21
 bash,cmd pour connaitre la version de python3 ?,python3 -V,0,2024-12-03 10:19:16
 bash,cmd pour connaitre le chemin de python3 ?,which python3,0,2024-12-06 14:12:07
-bash,cmd pour vérifier s'il existe d'autres versions de python ?,ls -lht python*,1,2024-12-06 14:09:29
+bash,cmd pour vérifier s'il existe d'autres versions de python ?,ls -lht python*,0,2024-12-09 10:17:01
 bash,cmd pour lancer le fichier fusee.py avec python 3.6 ?,python3.6 fusee.py,0,2024-12-06 14:12:18
-bash,Qu'est ce que la variable PATH ?,La variable PATH est une variable d'environnement qui contient une liste de répertoires dans lesquels le système d'exploitation recherche des exécutables lorsque l'on tape une commande dans le terminal. C'est dans cette variable d'environnement que la commande 'which' va lire pour connaitre le chemin,0,2024-12-02 12:31:02
-bash,Que faut-il en première ligne pour lancer un fichier python ?,#! /usr/bin/python3,0,2024-12-02 12:31:22
+bash,Qu'est ce que la variable PATH ?,La variable PATH est une variable d'environnement qui contient une liste de répertoires dans lesquels le système d'exploitation recherche des exécutables lorsque l'on tape une commande dans le terminal. C'est dans cette variable d'environnement que la commande 'which' va lire pour connaitre le chemin,0,2024-12-09 10:18:12
+bash,Que faut-il en première ligne pour lancer un fichier python ?,#! /usr/bin/python3,0,2024-12-10 14:53:44
 bash,cmd pour créer la variable d'environnement ENV localisée en /home/dev ?,export ENV='/home/dev',0,2024-12-06 14:10:18
-bash,cmd pour lire le contenu de la variable PATH ?,echo $PATH,0,2024-12-02 12:43:32
+bash,cmd pour lire le contenu de la variable PATH ?,echo $PATH,0,2024-12-10 14:56:07
 bash,Pourquoi ajouter un repertoire à la variable PATH ?,Cela permet de lancer les fichiers enregistrés dans ce répertoir n'importe où dans LINUX,0,2024-12-06 14:12:45
 bash,cmd pour ajouter le repertoire 'envfolder' sous eleonore dans la variable PATH ?,export PATH='/home/eleonore/envfolder:$PATH',0,2024-12-06 14:10:40
-bash,quelle est l'utilité du fichier '.bashrc' ?,"Le fichier '.bashrc' permet de personnaliser son terminal. EN effet on peut 1) personaliser le PATH et les variables d'environnement 2)Créer des fonctions et des alias 3)personaliser les prompts, les couleurs et les sorties des commandes.",0,2024-12-02 12:34:28
-bash,cmd pour lancer le fichier '.bashrc' ?,source .bashrc,0,2024-12-02 12:34:33
-bash,cmd pour connaitre l'historique de la commande 'sudo' ?,history | grep sudo,2,2024-12-06 14:11:40
-bash,qu'est ce qu'un alias ? et comment créer un alias 'gcdm' pour 'git commit' ?,Un alias est le raccourci d'une commande. la cmd est : alias gcdm='git commit',0,2024-12-02 12:35:41
+bash,quelle est l'utilité du fichier '.bashrc' ?,"Le fichier '.bashrc' permet de personnaliser son terminal. EN effet on peut 1) personaliser le PATH et les variables d'environnement 2)Créer des fonctions et des alias 3)personaliser les prompts, les couleurs et les sorties des commandes.",0,2024-12-09 10:19:16
+bash,cmd pour lancer le fichier '.bashrc' ?,source .bashrc,0,2024-12-09 10:19:24
+bash,cmd pour connaitre l'historique de la commande 'sudo' ?,history | grep sudo,0,2024-12-10 14:54:01
+bash,qu'est ce qu'un alias ? et comment créer un alias 'gcdm' pour 'git commit' ?,Un alias est le raccourci d'une commande. la cmd est : alias gcdm='git commit',0,2024-12-09 10:19:58
 bash,comment suspendre un processus ?,CTRL + Z,0,2024-12-03 10:21:41
 bash,comment arrêter un processus ?,CTRL + C,0,2024-12-06 14:12:51
 bash,cmd pour reprendre un processus suspendu ?,fg,0,2024-12-03 10:19:53
@@ -79,66 +79,67 @@ bash,quel programme permet de lister les processus en-cours et quelle est la cmd
 bash,avec htop comment arrêter le processus ?,1) selectionner le processus avec les flèches du curseur 2)taper K sur le processus 3)sélectionner le signal 'sigkill' ou 'sigterm',0,2024-12-06 14:11:55
 bash,cmd pour mettre à jour les paquets ?,première étape 'sudo apt update' puis ensuite 'sudo apt upgrade',0,2024-12-03 10:20:11
 bash,cmd pour installer le paquet 'booster' ?,sudo apt install booster,0,2024-12-06 14:13:01
-bash,Quels types de flux existent ?,Entrant=STD IN  Sortant=STD OUT  Erreur=STD ERR,0,2024-12-02 12:41:42
+bash,Quels types de flux existent ?,Entrant=STD IN  Sortant=STD OUT  Erreur=STD ERR,0,2024-12-09 10:21:18
 bash,cmd pour rediriger les flux sortants du programme 'prg.py' vers un fichier 'resultat.txt' ?,python3 prg.py 1> resultat.txt,0,2024-12-03 10:20:35
 bash,cmd pour rediriger les flux erreurs du programme 'prg.py' vers un fichier 'pylog.txt' ?,python3 prg.py 2> pylog.txt,0,2024-12-06 14:13:19
-bash,cmd pour augmenter à 1200 lignes l'historique des commandes ?,export HISTSIZE=1200,2,2024-12-06 14:08:27
+bash,cmd pour augmenter à 1200 lignes l'historique des commandes ?,export HISTSIZE=1200,0,2024-12-10 14:54:14
 bash,cmd pour vérifier si on a du réseau ?,ping www.google.com,0,2024-12-03 10:28:45
-bash,cmd pour zipper le fichier 'biloute.txt' dans 'biloutezippe' ?,zip biloutezippe.zip biloute.txt,0,2024-12-02 12:38:29
+bash,cmd pour zipper le fichier 'biloute.txt' dans 'biloutezippe' ?,zip biloutezippe.zip biloute.txt,0,2024-12-09 10:20:48
 bash,cmd pour obtenir une explication sur la commande ls ?,man ls,0,2024-12-06 14:13:27
-bash,cmd pour connaitre les paquets 'paint' a télécharger ?,apt search paint,1,2024-12-06 14:09:36
+bash,cmd pour connaitre les paquets 'paint' a télécharger ?,apt search paint,0,2024-12-09 10:17:09
 bash,cmd pour supprimer le paquet 'bullit' ?,sudo apt remove bullit,0,2024-12-03 10:21:10
-bash,cmd pour télécharger le fichier 'anaconda.sh' à partir de l'adresse 'https://repo.anaconda.com/loading' ?,wget https://repo.anaconda.com/loading/anaconda.sh,0,2024-12-02 12:41:57
+bash,cmd pour télécharger le fichier 'anaconda.sh' à partir de l'adresse 'https://repo.anaconda.com/loading' ?,wget https://repo.anaconda.com/loading/anaconda.sh,0,2024-12-10 14:54:33
 bash,comment faire pour créer une variable d'environnement définitive ?,il faut enregistrer la cmd de création dans le fichier '.bashrc',0,2024-12-03 10:21:28
-bash,dans google colab comment utiliser les cmd bash ?,La commande bash est précédé par '!' par exemple '!whoami'. Ou bien commencer la ligne avec '%%bash' puis continuer avec les cmd bash habituelles,0,2024-12-02 12:33:33
+bash,dans google colab comment utiliser les cmd bash ?,La commande bash est précédé par '!' par exemple '!whoami'. Ou bien commencer la ligne avec '%%bash' puis continuer avec les cmd bash habituelles,0,2024-12-09 10:18:44
 bash,comment réaliser une autocompletion ?,il suffit d'utiliser la touche 'Tab',0,2024-12-03 10:21:35
-bash,comment regrouper des cmd qui se réaliseront successivement sur une même ligne ?,Chaque cmd doit etre séparée par '&&' par exemple : cd folder && echo 'hello' >> text.txt && ls,0,2024-12-02 12:42:24
-bash,comment regrouper des cmd sur une même ligne mais qu'elles se réalisent indépedendament les unes des autres ?,chaque cmd est séparée par le ';',0,2024-12-02 12:42:58
-bash,cmd pour changer d'utilisateur et être sous eleonore?,sudo su - eleonore,6,2024-12-06 14:07:42
-bash,cmd pour quitter l'utilisateur eleonore que j'ai sélectionné ?,exit,0,2024-12-02 12:43:18
-bash,comment travailler en mode plein écran avec Ubuntu ?,Presser la touche F11,0,2024-12-02 12:43:25
-sql,Expliquer la cmd 'SELECT *' ?,"Cette cmd sélectionne des colonnes de la table. SELECT colonne1, colonne4, ...",0,2024-12-03 11:16:38
-sql,Expliquer la cmd 'SELECT DISTINCT' et donner un exemple ?,Cette cmd évite les redondances et permet de lister individuellement les données d'une colonne de la table. SELECT DISTINCT pays / FROM table_ventes,0,2024-12-03 11:17:12
-sql,"Quel est l'ordre de priorité entre AND, NOT, et OR ?", L'ordre est NOT > AND > OR et il peut être modifié avec l'utilisation des parenthèses,0,2024-11-29 09:56:04
-sql,Comment mettre un commentaire dans une cmd SQL ?,Pour une simple ligne commencer la ligne par '--'. Et pour un paragraphe il faut commencer par '/*' et terminer par '*/',0,2024-11-29 09:56:25
-sql,Quel est l'ordre de réalisation des opérations SQL ?,FROM > JOIN > WHERE > GROUP BY > HAVING > SELECT > DISTINCT > ORDER BY > LIMIT > OFFSET,0,2024-12-06 14:45:40
-sql,Expliquer la cmd COUNT et donner un exemple ?,Cette cmd permet de compter le nb de lignes non NULL dans une colonne. SELECT COUNT (client) / FROM table_ventes,0,2024-12-06 14:52:41
-sql,Expliquer la cmd COUNT(*) ?,"Cette cmd, utilisée avec 'SELECT, permet de compter le nombre total de lignes dans une table dès lors qu'il existe une colonne non NULL",0,2024-12-03 10:49:49
-sql,Expliquer le 'self join' et donner un exemple de code ?,"C'est une opération de jointure d'une table avec elle-même qui nécessite d'utiliser des alias dans 'SELECT', 'FROM' et 'JOIN' pour distinguer les deux instances. SELECT l.name AS employee, r.name AS manager / FROM table_effectifs as l / INNER JOIN table_effectifs AS r / ON l.id_num = r.id_num",0,2024-12-06 14:53:14
-sql,Expliquer un 'cross join' et donner un exemple ?,C'est un produit cartésien. Chaque ligne de la table boisson est combinée avec les lignes de la table nourriture. SELECT * / FROM table_boisson / CROSS JOIN table_nourrriture,0,2024-12-03 10:53:22
-sql,Expliquer un 'inner join' et donner un exemple ?,Cette opération permet de combiner les lignes de deux tables en se basant sur une condition de jointure spécifique. Il renvoie uniquement les lignes où il y a une correspondance dans les deux tables. C'est un 'crossjoin' avec une condition de correspondance. SELECT * / FROM table_clients / INNER JOIN table_ventes / USING(id_client),0,2024-12-03 10:45:28
-sql,Expliquer un 'left join' et donner un exemple ?,"C'est une combinaison des lignes de deux tables avec un condition de jointure spécifique, mais qui garde toute les lignes de la table de gauche (1ière table) et les lignes correspondantes de la table de droite (2nd table). SELECT no_fact, pays, vente / FROM table_ventes / LEFT JOIN table_clients / USING(id_clients)",0,2024-11-29 09:57:30
-sql,Expliquer un 'full outer join' et donner un exemple,C'est la combinaison des résultats d'un 'left join' et d'un 'right join'. Le résultat retourne toutes les lignes des deux tables avec des valeurs NULL là où il n'y a pas de correspondances. SELECT * / FROM table1 / FULL OUTER JOIN table2 / USING(id),0,2024-12-03 10:49:30
-sql,Expliquer la commande 'GROUP BY' et donner un exemple ?,"Cette cmd permet de grouper des résultats ayant des valeurs identiques dans une ou plusieurs colonnes. Elle s'utilise avec une fonction d'aggrégation. SELECT product, SUM(sales) / FROM table / GROUP BY product",0,2024-12-06 14:53:41
-sql,Expliquer la commande 'COALESCE' et donner un exemple?,"Cette cmd utilisée avec 'SELECT' permet de retourner la première valeur non nulle parmi une liste de valeurs. Par exemple le code reporte le prénom sinon le nickname sinon inconnu : SELECT COALESCE(prenom, nickname, 'inconnu'), mail_adress / FROM table_salarie",0,2024-12-06 14:46:18
-sql,Expliquer la commande 'CAST' et donner un exemple ?,"Cette commande, utilisée dans un 'SELECT', permet de définir ou modifier le type des données d'une colonne. SELECT SUM(CAST(montant AS FLOAT)) AS total_ventes / FROM table_ventes",0,2024-12-06 14:47:10
-sql,Expliquer la commande CTE et donner un exemple ?,CTE = Common Table Expression permet de créer une table qui sera rappeler ensuite dans une requête. WITH new_table AS (SELECT ...) / SELECT * /FROM new_table,0,2024-12-03 10:54:54
-sql,Expliquer la commande 'HAVING' ?,Cette cmd permet de filtrer les lignes produites par un 'GROUP BY'. Elle remplace le 'WHERE' qui ne peut pas être utiliser.,0,2024-11-29 09:58:04
-sql,Expliquer la commande 'UNION' et donner un exemple ?,"Cette cmd permet de combiner les résultats de plusieurs 'SELECT' en un seul. Les requêtes doivent avoir le même nombre de colonnes et les mêmes types de données. SELECT col1, col2 FROM table1 / UNION / SELECT col1, col2 FROM table2",0,2024-12-03 10:52:00
-sql,Expliquer la différence entre les cmd 'UNION' et 'UNION ALL' ?,La cmd 'UNION' supprime les doublons à la différence de la cmd 'UNION ALL' qui les conserve,0,2024-12-06 14:54:30
-sql,Expliquer la commande 'CASE WHEN' et donner un exemple ?,Cette cmd permet d'ajouter une logique conditionelle dans les requêtes et retourne différentes valeurs basées sur des conditions spécifiques. Elle est surtout utilisée dans un 'SELECT' mais elle peut aussi être utilisée dans une aggrégation. CASE / WHEN condition1 THEN resultat1 / WHEN condition2 THEN resultat2 / ELSE resultat_autre / END AS alias,0,2024-11-29 09:55:02
-sql,Code sql pour formater une colonne qui doit afficher le résultat d'un calcul avec deux décimales ?,"SELECT / ROUND(calcul, 2)",0,2024-11-29 09:58:31
-sql,Expliquer la cmd 'GROUPING SETS' et donner un exemple ?,"Cette cmd, utilisée avec 'GROUP BY', permet de réaliser des sous-groupes. C'est comme réaliser plusieurs 'GROUP BY' dans la même requête. Exemple pour obtenir les ventes consolidées par produits+régions, produits seuls et régions seules: SELECT produit, region, SUM(ventes) / FROM table_ventes / GROUP BY GROUPINGS SETS((produits, region),produits,region)",0,2024-11-29 09:55:55
-sql,Expliquer la cmd 'ROLLUP' et donner un exemple ?,"Cette cmd utilisée avec 'GROUP BY' génère une hiérarchie d'agrégations. Elle calcule les résultats pour les colonnes dans l'ordre où elles sont spécifiées, en commençant par les niveaux les plus détaillés jusqu'aux totaux globaux. SELECT produit, region, SUM(ventes) / FROM table_ventes / GROUP BY ROLLUP(produit, region)",4,2024-12-06 14:42:18
-sql,Expliquer la cmd 'CUBE' et donner un exemple ?,"Cette cmd utilisée avec 'GROUP BY' génère tous les sous-ensembles possibles d'agrégations pour les colonnes spécifiées. SELECT produit, region, SUM(ventes) / FROM table_ventes / GROUP BY CUBE(produit, region)",4,2024-12-06 14:43:07
-sql,Expliquer comment faire plusieurs CTE à la suite ?,"Pour réaliser plusieurs CTE dans une requête : WITH cte1 AS(...), cte2 AS(...), cte3 AS(...)",0,2024-12-06 14:53:54
-sql,Expliquer 'window function' ?,Les fonctions fenêtres permettent d'effectuer des calculs sur un ensemble de lignes tout en conservant les lignes d'origine.,2,2024-12-06 14:43:28
-sql,Expliquer la cmd 'OVER(ORDER BY ...) et donner un exemple ?,La cmd détermine comment les lignes d'une partition doivent être triées selon une colonne. Par exemple créer une colonne des ventes cumulées par jour : SUM(ventes) OVER(ORDER BY date) AS ventes_cumulées,0,2024-12-06 14:48:11
-sql,Expliquer la cmd 'FILTER' ?,Cette cmd permet d'appliquer des conditions avant toute aggrégation. SUM(ventes) FILTER(produit = 'redbull'),2,2024-12-06 14:44:16
-sql,Expliquer la cmd 'OVER(ROWS BETWEEN...)' et donner un exemple ?,"Cette cmd détermine précisement quelles lignes sont à inclure dans le calcul. On utilise 'PRECEDING', 'FOLLOWING', 'UNBOUNDED' et 'CURRENT ROW'. Par exemple créer une colonne des ventes moyennes des 3 derniers jours : AVG(ventes) OVER(ORDER BY date ROWS BETWEEN 2 PRECEDING and CURRENT ROW) AS vente_3jours",0,2024-12-06 14:54:23
-sql,Expliquer la commande 'LIMIT' et donner un exemple ?,Cette cmd permet de définir le nb de résultat de la requête. SELECT * / FROM table / LIMIT nb_de_lignes,0,2024-12-03 10:45:53
-sql,Expliquer la cmd 'WHERE' et donner un exemple ?,Cette cmd qui s'utilise avec 'SELECT' permet d'extraire des lignes selon une condition spécifique. SELECT * / FROM table / WHER condition,0,2024-12-03 10:48:37
-sql,Expliquer 'LIKE' et '%' et '_' et donner un exemple ?,la cmd 'LIKE' est utilisée avec 'WHERE' et permet de sélectionner des valeurs avec les caractères spéciaux '%' qui remplace plusieurs lettres et '_' qui remplace une seule lettre. SELECT * / FROM table / WHERE nom LIKE 'DUPON_',0,2024-12-03 10:47:10
-sql,Expliquer 'NULL' dans SQL ?,'NULL' signifie pas de valeur ce n'est pas 0 ou ''. En SQL nous avons les commandes 'IS NULL' et 'IS NOT NULL' qui peuvent être utilisée dans une condition.,0,2024-12-03 10:47:31
-sql,Expliquer un 'nested query' et donner un exemple ?,Un 'nested query' est une sous-requête incluse dans une autre requête. Cela permet d'utiliser le résultat de cette 'sous-requête' dans une requête principale. SELECT * / FROM table / WHERE col1 = (SELECT * / FROM table / WHERE col2 = condition),0,2024-12-03 10:48:11
-sql,"Lors de l'utilisation d'une aggrégation avec la clause 'OVER', quel est l'ordre de priorité de 'ORDER BY', 'PARTITION BY' et 'ROWS BETWEEN' et donner un exemple ?","L'ordre est le suivant 'PARTITION BY' (divise en groupe) puis 'ORDER BY' (classe les lignes) puis 'ROWS BETWEEN' (définie les lignes dans la plage). SELECT *, / SUM(salary) OVER(PARTITION BY department / ORDER BY hire_date / ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) / FROM table",0,2024-12-06 14:49:51
-sql,"Expliquer les 3 clauses suivantes : 'ROW_NUMBER()', RANK() et DENSE_RANK() ?","Ces trois clauses permettent de numéroter les lignes dans un ensemble de résultat mais ne numérotent pas de la même manière les lignes avec des valeurs identiques. Imaginons que dans une colonne nous ayons les valeurs suivantes [101,103,104,104,108]. La clause 'ROW_NUMBER()' attribue un numéro unique à chaque ligne sans tenir compte des valeurs identiques [1,2,3,4,5]. 'RANK()' attribue un numéro à chaque ligne cependant les lignes ayant des valeurs identiques se verront attribuées le même rang et le rang suivant sera sauté [1,2,3,3,5]. 'DENSE_RANK()' fonctionne comme 'RANK()' mais ne saute pas de rang, il y a continuite des nombres [1,2,3,3,4]. Ces fonctions utilisent la fonction 'OVER'.",1,2024-12-06 14:51:41
-sql,Quelles clauses précèdent l'utilisation de 'OVER()' ?,"La cmd 'OVER' s'utilise avec une fonction d'aggrégation par exemple SUM (ventes) OVER (ORDER BY date). Ou avec les fonctions 'ROW_NUMBER()', 'RANK()' et 'DENSE_RANK()' par exemple ROW_NUMBER () OVER(PARTITION BY pays). Et la cmd 'LAG()'.",0,2024-12-02 18:32:00
-sql,Expliquer la cmd 'LAG' et donner un exemple ?,"La cmd 'LAG', utilisée dans 'SELECT', permet d'accéder à une valeur provenant d'une ligne précédente dans une colonne définie. Par exemple accéder à la deuxième meilleure facture de chaque client (et retourne 0 si pas de seconde facture). SELECT client_id, facture_nb, ventes, LAG(ventes,2,0) OVER(ORDER BY client_id, ventes) / FROM table_ventes.",0,2024-12-05 12:00:00 
-sql,Expliquer la cmd 'QUALIFY' et donner un exemple ?,"La cmd 'QUALIFY' permet de réaliser un filtre sur une colonne créée avec une 'window function'. Par exemple dans chaque pays quels sont les clients avec le second niveau de ventes. SELECT client_id, pays, ventes, DENSE_RANK() OVER(PARTITION BY pays ORDER BY ventes) AS index / FROM table_ventes / QUALIFY index=2.",0,2024-12-05 12:00:10 
+bash,comment regrouper des cmd qui se réaliseront successivement sur une même ligne ?,Chaque cmd doit etre séparée par '&&' par exemple : cd folder && echo 'hello' >> text.txt && ls,0,2024-12-10 14:54:52
+bash,comment regrouper des cmd sur une même ligne mais qu'elles se réalisent indépedendament les unes des autres ?,chaque cmd est séparée par le ';',0,2024-12-10 14:55:19
+bash,cmd pour changer d'utilisateur et être sous eleonore?,sudo su - eleonore,1,2024-12-12 17:07:56
+bash,cmd pour quitter l'utilisateur eleonore que j'ai sélectionné ?,exit,0,2024-12-11 09:26:56
+bash,comment travailler en mode plein écran avec Ubuntu ?,Presser la touche F11,0,2024-12-10 14:55:53
+sql,Expliquer la cmd 'SELECT *' ?,"Cette cmd sélectionne des colonnes de la table. SELECT colonne1, colonne4, ...",0,2024-12-10 15:02:09
+sql,Expliquer la cmd 'SELECT DISTINCT' et donner un exemple ?,Cette cmd évite les redondances et permet de lister individuellement les données d'une colonne de la table. SELECT DISTINCT pays / FROM table_ventes,0,2024-12-10 15:02:41
+sql,"Quel est l'ordre de priorité entre AND, NOT, et OR ?", L'ordre est NOT > AND > OR et il peut être modifié avec l'utilisation des parenthèses,0,2024-12-12 17:11:11
+sql,Comment mettre un commentaire dans une cmd SQL ?,Pour une simple ligne commencer la ligne par '--'. Et pour un paragraphe il faut commencer par '/*' et terminer par '*/',0,2024-12-12 17:11:29
+sql,Quel est l'ordre de réalisation des opérations SQL ?,FROM > JOIN > WHERE > GROUP BY > HAVING > SELECT > DISTINCT > ORDER BY > LIMIT > OFFSET,0,2024-12-10 15:04:57
+sql,Expliquer la cmd COUNT et donner un exemple ?,Cette cmd permet de compter le nb de lignes non NULL dans une colonne. SELECT COUNT (client) / FROM table_ventes,0,2024-12-10 15:08:45
+sql,Expliquer la cmd COUNT(*) ?,"Cette cmd, utilisée avec 'SELECT, permet de compter le nombre total de lignes dans une table dès lors qu'il existe une colonne non NULL",0,2024-12-09 12:44:23
+sql,Expliquer le 'self join' et donner un exemple de code ?,"C'est une opération de jointure d'une table avec elle-même qui nécessite d'utiliser des alias dans 'SELECT', 'FROM' et 'JOIN' pour distinguer les deux instances. SELECT l.name AS employee, r.name AS manager / FROM table_effectifs as l / INNER JOIN table_effectifs AS r / ON l.id_num = r.id_num",0,2024-12-10 15:09:19
+sql,Expliquer un 'cross join' et donner un exemple ?,C'est un produit cartésien. Chaque ligne de la table boisson est combinée avec les lignes de la table nourriture. SELECT * / FROM table_boisson / CROSS JOIN table_nourrriture,0,2024-12-09 12:45:37
+sql,Expliquer un 'inner join' et donner un exemple ?,Cette opération permet de combiner les lignes de deux tables en se basant sur une condition de jointure spécifique. Il renvoie uniquement les lignes où il y a une correspondance dans les deux tables. C'est un 'crossjoin' avec une condition de correspondance. SELECT * / FROM table_clients / INNER JOIN table_ventes / USING(id_client),0,2024-12-12 17:13:55
+sql,Expliquer un 'left join' et donner un exemple ?,"C'est une combinaison des lignes de deux tables avec un condition de jointure spécifique, mais qui garde toute les lignes de la table de gauche (1ière table) et les lignes correspondantes de la table de droite (2nd table). SELECT no_fact, pays, vente / FROM table_ventes / LEFT JOIN table_clients / USING(id_clients)",0,2024-12-12 17:12:18
+sql,Expliquer un 'full outer join' et donner un exemple,C'est la combinaison des résultats d'un 'left join' et d'un 'right join'. Le résultat retourne toutes les lignes des deux tables avec des valeurs NULL là où il n'y a pas de correspondances. SELECT * / FROM table1 / FULL OUTER JOIN table2 / USING(id),0,2024-12-09 12:44:07
+sql,Expliquer la commande 'GROUP BY' et donner un exemple ?,"Cette cmd permet de grouper des résultats ayant des valeurs identiques dans une ou plusieurs colonnes. Elle s'utilise avec une fonction d'aggrégation. SELECT product, SUM(sales) / FROM table / GROUP BY product",0,2024-12-11 09:32:03
+sql,Expliquer la commande 'COALESCE' et donner un exemple?,"Cette cmd utilisée avec 'SELECT' permet de retourner la première valeur non nulle parmi une liste de valeurs. Par exemple le code reporte le prénom sinon le nickname sinon inconnu : SELECT COALESCE(prenom, nickname, 'inconnu'), mail_adress / FROM table_salarie",0,2024-12-10 15:05:38
+sql,Expliquer la commande 'CAST' et donner un exemple ?,"Cette commande, utilisée dans un 'SELECT', permet de définir ou modifier le type des données d'une colonne. SELECT SUM(CAST(montant AS FLOAT)) AS total_ventes / FROM table_ventes",0,2024-12-10 15:06:29
+sql,Expliquer la commande CTE et donner un exemple ?,CTE = Common Table Expression permet de créer une table qui sera rappeler ensuite dans une requête. WITH new_table AS (SELECT ...) / SELECT * /FROM new_table,0,2024-12-09 12:46:07
+sql,Expliquer la commande 'HAVING' ?,Cette cmd permet de filtrer les lignes produites par un 'GROUP BY'. Elle remplace le 'WHERE' qui ne peut pas être utiliser.,0,2024-12-12 17:12:34
+sql,Expliquer la commande 'UNION' et donner un exemple ?,"Cette cmd permet de combiner les résultats de plusieurs 'SELECT' en un seul. Les requêtes doivent avoir le même nombre de colonnes et les mêmes types de données. SELECT col1, col2 FROM table1 / UNION / SELECT col1, col2 FROM table2",0,2024-12-09 12:44:49
+sql,Expliquer la différence entre les cmd 'UNION' et 'UNION ALL' ?,La cmd 'UNION' supprime les doublons à la différence de la cmd 'UNION ALL' qui les conserve,0,2024-12-11 09:48:03
+sql,Expliquer la commande 'CASE WHEN' et donner un exemple ?,Cette cmd permet d'ajouter une logique conditionelle dans les requêtes et retourne différentes valeurs basées sur des conditions spécifiques. Elle est surtout utilisée dans un 'SELECT' mais elle peut aussi être utilisée dans une aggrégation. CASE / WHEN condition1 THEN resultat1 / WHEN condition2 THEN resultat2 / ELSE resultat_autre / END AS alias,0,2024-12-11 09:50:34
+sql,Code sql pour formater une colonne qui doit afficher le résultat d'un calcul avec deux décimales ?,"SELECT / ROUND(calcul, 2)",0,2024-12-12 17:12:52
+sql,Expliquer la cmd 'GROUPING SETS' et donner un exemple ?,"Cette cmd, utilisée avec 'GROUP BY', permet de réaliser des sous-groupes. C'est comme réaliser plusieurs 'GROUP BY' dans la même requête. Exemple pour obtenir les ventes consolidées par produits+régions, produits seuls et régions seules: SELECT produit, region, SUM(ventes) / FROM table_ventes / GROUP BY GROUPINGS SETS((produits, region),produits,region)",0,2024-12-11 09:51:06
+sql,Expliquer la cmd 'ROLLUP' et donner un exemple ?,"Cette cmd utilisée avec 'GROUP BY' génère une hiérarchie d'agrégations. Elle calcule les résultats pour les colonnes dans l'ordre où elles sont spécifiées, en commençant par les niveaux les plus détaillés jusqu'aux totaux globaux. SELECT produit, region, SUM(ventes) / FROM table_ventes / GROUP BY ROLLUP(produit, region)",2,2024-12-12 17:10:41
+sql,Expliquer la cmd 'CUBE' et donner un exemple ?,"Cette cmd utilisée avec 'GROUP BY' génère tous les sous-ensembles possibles d'agrégations pour les colonnes spécifiées. SELECT produit, region, SUM(ventes) / FROM table_ventes / GROUP BY CUBE(produit, region)",0,2024-12-12 17:11:03
+sql,Expliquer comment faire plusieurs CTE à la suite ?,"Pour réaliser plusieurs CTE dans une requête : WITH cte1 AS(...), cte2 AS(...), cte3 AS(...)",0,2024-12-11 09:32:22
+sql,Expliquer 'window function' ?,Les fonctions fenêtres permettent d'effectuer des calculs sur un ensemble de lignes tout en conservant les lignes d'origine.,0,2024-12-10 15:01:47
+sql,Expliquer la cmd 'OVER(ORDER BY ...) et donner un exemple ?,La cmd détermine comment les lignes d'une partition doivent être triées selon une colonne. Par exemple créer une colonne des ventes cumulées par jour : SUM(ventes) OVER(ORDER BY date) AS ventes_cumulées,0,2024-12-10 15:07:31
+sql,Expliquer la cmd 'FILTER' ?,Cette cmd permet d'appliquer des conditions avant toute aggrégation. SUM(ventes) FILTER(produit = 'redbull'),0,2024-12-10 15:02:00
+sql,Expliquer la cmd 'OVER(ROWS BETWEEN...)' et donner un exemple ?,"Cette cmd détermine précisement quelles lignes sont à inclure dans le calcul. On utilise 'PRECEDING', 'FOLLOWING', 'UNBOUNDED' et 'CURRENT ROW'. Par exemple créer une colonne des ventes moyennes des 3 derniers jours : AVG(ventes) OVER(ORDER BY date ROWS BETWEEN 2 PRECEDING and CURRENT ROW) AS vente_3jours",0,2024-12-11 09:47:40
+sql,Expliquer la commande 'LIMIT' et donner un exemple ?,Cette cmd permet de définir le nb de résultat de la requête. SELECT * / FROM table / LIMIT nb_de_lignes,0,2024-12-12 17:14:13
+sql,Expliquer la cmd 'WHERE' et donner un exemple ?,Cette cmd qui s'utilise avec 'SELECT' permet d'extraire des lignes selon une condition spécifique. SELECT * / FROM table / WHER condition,0,2024-12-09 12:43:35
+sql,Expliquer 'LIKE' et '%' et '_' et donner un exemple ?,la cmd 'LIKE' est utilisée avec 'WHERE' et permet de sélectionner des valeurs avec les caractères spéciaux '%' qui remplace plusieurs lettres et '_' qui remplace une seule lettre. SELECT * / FROM table / WHERE nom LIKE 'DUPON_',0,2024-12-09 12:42:04
+sql,Expliquer 'NULL' dans SQL ?,'NULL' signifie pas de valeur ce n'est pas 0 ou ''. En SQL nous avons les commandes 'IS NULL' et 'IS NOT NULL' qui peuvent être utilisée dans une condition.,0,2024-12-09 12:42:29
+sql,Expliquer un 'nested query' et donner un exemple ?,Un 'nested query' est une sous-requête incluse dans une autre requête. Cela permet d'utiliser le résultat de cette 'sous-requête' dans une requête principale. SELECT * / FROM table / WHERE col1 = (SELECT * / FROM table / WHERE col2 = condition),0,2024-12-09 12:43:03
+sql,"Lors de l'utilisation d'une aggrégation avec la clause 'OVER', quel est l'ordre de priorité de 'ORDER BY', 'PARTITION BY' et 'ROWS BETWEEN' et donner un exemple ?","L'ordre est le suivant 'PARTITION BY' (divise en groupe) puis 'ORDER BY' (classe les lignes) puis 'ROWS BETWEEN' (définie les lignes dans la plage). SELECT *, / SUM(salary) OVER(PARTITION BY department / ORDER BY hire_date / ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) / FROM table",0,2024-12-10 15:07:57
+sql,"Expliquer les 3 clauses suivantes : 'ROW_NUMBER()', RANK() et DENSE_RANK() ?","Ces trois clauses permettent de numéroter les lignes dans un ensemble de résultat mais ne numérotent pas de la même manière les lignes avec des valeurs identiques. Imaginons que dans une colonne nous ayons les valeurs suivantes [101,103,104,104,108]. La clause 'ROW_NUMBER()' attribue un numéro unique à chaque ligne sans tenir compte des valeurs identiques [1,2,3,4,5]. 'RANK()' attribue un numéro à chaque ligne cependant les lignes ayant des valeurs identiques se verront attribuées le même rang et le rang suivant sera sauté [1,2,3,3,5]. 'DENSE_RANK()' fonctionne comme 'RANK()' mais ne saute pas de rang, il y a continuite des nombres [1,2,3,3,4]. Ces fonctions utilisent la fonction 'OVER'.",0,2024-12-11 09:50:00
+sql,Quelles clauses précèdent l'utilisation de 'OVER()' ?,"La cmd 'OVER' s'utilise avec une fonction d'aggrégation par exemple SUM (ventes) OVER (ORDER BY date). Ou avec les fonctions 'ROW_NUMBER()', 'RANK()' et 'DENSE_RANK()' par exemple ROW_NUMBER () OVER(PARTITION BY pays). Et la cmd 'LAG()'.",0,2024-12-12 17:13:27
+sql,Expliquer la cmd 'LAG' et donner un exemple ?,"La cmd 'LAG', utilisée dans 'SELECT', permet d'accéder à une valeur provenant d'une ligne précédente dans une colonne définie. Par exemple accéder à la deuxième meilleure facture de chaque client (et retourne 0 si pas de seconde facture). SELECT client_id, facture_nb, ventes, LAG(ventes,2,0) OVER(ORDER BY client_id, ventes) / FROM table_ventes.",0,2024-12-10 15:03:25
+sql,Expliquer la cmd 'QUALIFY' et donner un exemple ?,"La cmd 'QUALIFY' permet de réaliser un filtre sur une colonne créée avec une 'window function'. Par exemple dans chaque pays quels sont les clients avec le second niveau de ventes. SELECT client_id, pays, ventes, DENSE_RANK() OVER(PARTITION BY pays ORDER BY ventes) AS index / FROM table_ventes / QUALIFY index=2.",0,2024-12-11 09:31:26
+sql,Expliquer la cmd 'OVER(PARTITION BY...)' et donner un exemple ?,"La cmd permet de diviser les données en sous-ensembles (=partition) selon les valeurs dans les colonnes spécifiées. SELECT *, SUM(ventes) OVER(PARTITION BY pays) AS vente_pays / FROM table_ventes",0,2024-12-10 12:00:00                   
 py,Code python pour un 'inner join'des table1 et table2 ?,"=(table1.merge(table2, how='inner', on='id))",1,2024-11-14 12:56:03
 py,Code python pour un 'self join' de la table headcount pour rapprocher managers et employés ?,"=(headcount.merge(headcount, left_on='manager', right_on='employee', suffixes['_emp','_man'], how='left'))",1,2024-11-14 12:53:43
 py,Code python pour un 'left join' des table1 et table2 ?,"=(table1.merge(table2, how='left', on='id'))",1,2024-11-14 12:54:07
 py,Code python pour un 'cross join' des table1 et table2 ?,"=(table1.join(table2, how='cross'))",1,2024-11-14 12:54:44
 py,Code python pour un 'full outer join' des table1 et table2,"=(table1.merge(table2, how='outer', on='id')) ",1,2024-11-14 12:55:03
-py,Quelle différence entre 'join' et 'merge' avec Pandas ?,Avec Pandas 'join' réalise la jointure sur l'index et non sur la colonne désignée. Il faut désigner la colonne (col_name) comme le nouvel index de la table (df). = df.set_index('col_name'),1,2024-11-14 12:55:30
+py,Quelle différence entre 'join' et 'merge' avec Pandas ?,Avec Pandas 'join' réalise la jointure sur l'index et non sur la colonne désignée. Il faut désiner la colonne (col_name) comme le nouvel index de la table (df). = df.set_index('col_name'),1,2024-11-14 12:55:30
