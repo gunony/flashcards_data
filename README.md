@@ -50,5 +50,5 @@ To reset the counters and dates to zero, you need to update the 'flashcards.csv'
 
 ### Authors & Motivations <a name="authors"></a>
 
-This project was carried out by Guillaume NONY as part of the ‘data upskilling’ course prepared and presented by Benjamin DUBREU.
+This project was carried out by Guillaume NONY as part of the ‘data upskilling’ course.
 
